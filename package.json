@@ -2,9 +2,9 @@
   "name": "s26wb32lopez",
   "version": "0.0.0",
   "private": true,
-  "description": "",
+  "description": "Web Apps Assignment 10",
   "license": "ISC",
-  "author": "",
+  "author": "Jaden Lopez",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
