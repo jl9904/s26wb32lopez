@@ -24,8 +24,13 @@ block content
   
   div(class="container-fluid")
     div(class="row")
-      each item in results 
-        div(class="col-sm-2")
+      each item, index in results 
+        div(class="col-sm-2", onclick=`buy(${index})`)
           h4 #{item.location}
           p Height: #{item.height}m
           p Light Pattern: #{item.light_pattern}
+
+  script.
+    function buy(index) {
+      alert(`You purchased item ${index}`);
+    }
